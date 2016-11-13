@@ -1,0 +1,103 @@
+#top {
+	z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+	padding: 0;
+    overflow-x: hidden;
+    border-radius: 0px;
+    margin: 0 auto;
+    position: fixed;
+    width: 75%;
+    height: 58px;
+    left:40px;
+    right: 40px;
+    top: 0;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+.header1{
+
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+li a:hover:not(.active) {
+    border-bottom: #000 solid 3px;
+    color: black;
+}
+
+.active {
+   border-bottom: #000 solid 3px;
+   color: black;
+}
+
+
+.header2 {
+
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 55px;
+	font-weight: bold;
+	color: white;
+}
+
+body {
+ 	background-image: url("images/wrxcar3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.car{
+	position: relative;
+	margin: 0 auto;
+    top: 550px;
+    left:530px;
+
+
+}
+
+.button:hover{
+     background-color: black;
+}
+
+.button {
+	background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
