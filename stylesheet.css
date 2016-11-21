@@ -71,11 +71,13 @@ body {
 
 }
 
-.car{
+.car {
 	position: relative;
-	margin: 0 auto;
-    top: 550px;
-    left:530px;
+    max-width: 80px;
+    padding-top: 500px;
+    margin: auto;
+
+   
 
 
 }
@@ -95,7 +97,8 @@ body {
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	font-weight: bold;
     display: inline-block;
-    font-size: 16px;
+    white-space: nowrap;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
 
