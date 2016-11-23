@@ -72,14 +72,12 @@ body {
 }
 
 .car {
-	position: relative;
-    max-width: 80px;
+	position: inherit;
+    max-width: 150px;
     padding-top: 500px;
-    margin: auto;
-
-   
-
-
+    display: block;
+    margin: 0 auto;
+ 
 }
 
 .button:hover{
@@ -87,7 +85,7 @@ body {
 }
 
 .button {
-	background-color: grey;
+    background-color:gray;
     border: none;
     color: white;
     padding: 15px 20px;
@@ -99,7 +97,7 @@ body {
     display: inline-block;
     white-space: nowrap;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: auto;
     cursor: pointer;
 
 }
